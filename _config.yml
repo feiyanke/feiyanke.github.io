@@ -1,8 +1,9 @@
 # Site settings 配置站点
-title: 'feiyanke's blog'
+title: 'feiyanke blog'
 description: 'nothing'
 keyword: 'feiyanke'
-url: 'http://feiyanke.github.io' # your host
+url: 'http://feiyanke.github.io' 
+# your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
