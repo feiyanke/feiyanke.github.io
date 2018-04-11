@@ -21,7 +21,6 @@ footer:
 author: 'feiyanke'
 nickname: 'feiyanke'
 bio: 'programmer'
-avatar: '/assets/img/profile.png'
 
 # Search
 search: true
@@ -32,7 +31,6 @@ nightMode: true
 # Comments 评论功能
 comments:
   disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
