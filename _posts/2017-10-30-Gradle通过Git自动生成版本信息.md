@@ -15,7 +15,7 @@ status: 'public'
 
 实际上，如果我们使用git作为版本控制系统，那么git可以帮助我们来自动生成这些版本信息。通常情况，我们将git的tag作为发布的版本：
 
-![img](../img/1-cf1L-J-hEr8seSKLn9uHwQ.png)
+![img](/assets/img/1-cf1L-J-hEr8seSKLn9uHwQ.png)
 
 ### Version Name
 
@@ -27,11 +27,11 @@ status: 'public'
 
 **例1：Version Name为1.0**
 
-![img](../img/1-JWBvoMJo89W_RQYqPU3Utw.png)
+![img](/assets/img/1-JWBvoMJo89W_RQYqPU3Utw.png)
 
 **例2：Version Name为1.0-2-gdca226a**
 
-![img](../img/1-is7JdLND-m0V2VI_19fAsQ.png)
+![img](/assets/img/1-is7JdLND-m0V2VI_19fAsQ.png)
 
 其中1.0为tag名称，2表示该commit到tag增加的次数，gdca226a是该commit的hash code
 
@@ -43,13 +43,13 @@ status: 'public'
 
 **例3：Version Code为3**
 
-![img](../img/1-aDkEKS33PqNoy5YzarWr4A.png)
+![img](/assets/img/1-aDkEKS33PqNoy5YzarWr4A.png)
 
 但是这个方式仅适用于发布版本，如果我们想要一个中间版本或者开发版本，我们可以使用timestamp时间戳来作为`VersionCode` 。
 
 **例4：Version Code为1484407970**
 
-![img](../img/1-EwUZBO8vMcBX215VNh0VMQ.png)
+![img](/assets/img/1-EwUZBO8vMcBX215VNh0VMQ.png)
 
 timestamp是从1970-1-1 00:00:00到当前时间的秒数，因此可以保证新版本总是大于旧的版本。并且，也可以很容易的根据timestamp的值换算成实际时间并定位到相应的commit版本。
 

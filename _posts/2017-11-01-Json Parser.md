@@ -118,7 +118,7 @@ fun parsePair() {
 
 <array> 就是包含在 **'[]'** 中的一系列 <value> 的集合，并且 <value> 之间以逗号分隔：
 
-![Parse String](../img/array.gif)
+![Parse String](/assets/img/array.gif)
 
 代码如下：
 
