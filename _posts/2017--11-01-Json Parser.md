@@ -74,7 +74,7 @@ fun parse() {
 
 Object是一个无序的string/value对（<pair>）的集合，必须以`{` 开始，并以`}` 结束，string和value 之间以`:` 分隔，并且多个<pair>之间以`,` 分隔。
 
-![img](../img/object.gif)
+![img](/assets/img/object.gif)
 
 代码如下：
 
